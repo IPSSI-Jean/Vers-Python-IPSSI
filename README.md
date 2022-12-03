@@ -55,18 +55,14 @@ Le projet déroule en plusieurs étapes :
 
 4) Le vers va prendre des screenshots chaques secondes et les stocker dans C:\Screenshots 
 
-
 ### Mise en réseau
 Ce projet se déroule entièrement en **local**.
 
-# Axes d'améliorations du code
-Après la phase de réalisation du projet, le professeur nous a demandé une personnalisation du code afin d'améliorer ce dernier.
+# Avancement du projet
 
-Pour ce projet, les améliorations suivantes ont été mises en place :
-
-- [x] Chaque seconde, le vers va prendre des captures d'écran et les stocker dans C:\Screenshots ( pour besoins des tests, il est possible d'envoyer les screenshots sur un serveur distant)
-- [x] &&&
-- [x] &&&
+- [x] Mise en place de l'initialisation du vers
+- [x] Mise en place de l'auto-réplication du vers
+- [x] Mise en place de l'automatisation de captures par le vers ( le vers va prendre des captures d'écran et les stocker dans C:\Screenshots (pour besoins des tests, il est possible d'envoyer les screenshots sur un serveur distant) )
 
 # Mise en place de l'environement de travail
 
@@ -193,3 +189,5 @@ if __name__=="__main__":
     VersFinal = Vers(path=attack_directory)
     VersFinal.start_vers()
  ```
+
+**Il faut au préalable mettre en place un répertoire de test et renseigner son chemin absolu dans la variable ```attack_directory```, en fin de code.**
