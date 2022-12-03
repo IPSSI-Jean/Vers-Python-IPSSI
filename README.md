@@ -13,8 +13,6 @@
 
 >Un ver informatique est un logiciel malveillant qui se reproduit sur plusieurs ordinateurs en utilisant un réseau informatique comme Internet
 
-**Pour un meilleur confort, vous pouvez vous rendre sur le Github du projet : https://github.com/IPSSI-Jean/Ransomware-Python-IPSSI afin de bénéficier d'une vue globale sur le projet et sur l'affichage de ce README.**
-
 # Prérequis
 - Visual studio code
 
