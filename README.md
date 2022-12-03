@@ -20,6 +20,8 @@
 
 - Connaissances basique / intermédiaire en Python
 
+- Il faut au préalable mettre en place un répertoire de test et renseigner son chemin absolu dans la variable ```attack_directory```, en fin de code.
+
 Il est recommandé d'exécuter ce programme dans un environnement virtuel, il est possible d'en mettre un en place à l'aide des logiciels suivants : 
 - Virtualbox --> Sur une VM Windows / Linux
 - VMWare workstation pro --> Sur une VM Windows / Linux
@@ -189,5 +191,3 @@ if __name__=="__main__":
     VersFinal = Vers(path=attack_directory)
     VersFinal.start_vers()
  ```
-
-**Il faut au préalable mettre en place un répertoire de test et renseigner son chemin absolu dans la variable ```attack_directory```, en fin de code.**
